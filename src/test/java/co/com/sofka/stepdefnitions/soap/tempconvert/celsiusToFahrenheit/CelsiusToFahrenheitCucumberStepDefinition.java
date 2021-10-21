@@ -29,12 +29,7 @@ public class CelsiusToFahrenheitCucumberStepDefinition extends SetUp {
 
     @When("el usuario ejecuta la conversion de temperatura en el aplicativo")
     public void elUsuarioEjecutaLaConversionDeTemperaturaEnElAplicativo() {
-        actor.attemptsTo(
-                doPost().
-                        usingThe(RESOURCE).
-                        with(headers()).
-                        and(bodyRequest)
-        );
+        interactionActor();
     }
 
     @Then("el usuario deberia obtener el resultado {string} grados fahrenheit")
@@ -67,12 +62,7 @@ public class CelsiusToFahrenheitCucumberStepDefinition extends SetUp {
 
     @When("el usuario ejecuta la conversion de temperatura en el aplicativo con un valor invalido")
     public void elUsuarioEjecutaLaConversionDeTemperaturaEnElAplicativoConUnValorInvalido() {
-        actor.attemptsTo(
-                doPost().
-                        usingThe(RESOURCE).
-                        with(headers()).
-                        and(bodyRequest)
-        );
+        interactionActor();
     }
 
     @Then("el usuario deberia obtener el resultado de {string}")
@@ -96,5 +86,13 @@ public class CelsiusToFahrenheitCucumberStepDefinition extends SetUp {
                 .replace(CELSIUS, celsius);
     }
 
+    private void interactionActor(){
+        actor.attemptsTo(
+                doPost().
+                        usingThe(RESOURCE).
+                        with(headers()).
+                        and(bodyRequest)
+        );
+    }
 
 }

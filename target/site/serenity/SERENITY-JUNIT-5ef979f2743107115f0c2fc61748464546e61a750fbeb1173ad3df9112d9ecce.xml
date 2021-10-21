@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Convertir temperatura - Celsius a Fahrenheit" skipped="0" tests="2" time="7.8" timestamp="2021-10-21 03:33:26"><testcase name="Convertir grados celius a grados fahrenheit pasando valores validos"/><testcase name="Convertir grados celius a grados fahrenheit pasando valores invalidos"/></testsuite>
