@@ -3,6 +3,7 @@ package co.com.sofka.tasks.tempconvert;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.rest.interactions.Post;
+
 import java.util.Map;
 
 public class DoPost implements Task {
@@ -38,7 +39,7 @@ public class DoPost implements Task {
         );
     }
 
-    public static DoPost doPost(){
+    public static DoPost doPost() {
         return new DoPost();
     }
 

@@ -8,6 +8,101 @@
             <set />
           </value>
         </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-jsonplaceholder-rest/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-jsonplaceholder-rest/src/main/java/co/com/sofka/exceptions/ValidationIsNotNumeric.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-jsonplaceholder-rest/src/main/java/co/com/sofka/model/PostModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-jsonplaceholder-rest/src/main/java/co/com/sofka/questions/ValidationIsNotNumeric.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-jsonplaceholder-rest/src/main/java/co/com/sofka/task/DoGet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-jsonplaceholder-rest/src/main/java/co/com/sofka/task/DoPost.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-jsonplaceholder-rest/src/main/java/co/com/sofka/util/FileUtilities.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-jsonplaceholder-rest/src/test/java/co/com/sofka/runner/jsonplaceholder/posts/PostsRunner.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-jsonplaceholder-rest/src/test/java/co/com/sofka/runner/restassured/reqresin/login/LoginRunner.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-jsonplaceholder-rest/src/test/java/co/com/sofka/stepdefinition/jsonplaceholder/posts/PostsCucumberStepDefinition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-jsonplaceholder-rest/src/test/java/co/com/sofka/stepdefinition/setup/SetUp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-jsonplaceholder-rest/src/test/resources/features/jsonplaceholder/posts/posts.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-jsonplaceholder-rest/src/test/resources/jsonplaceholder/posts/posts.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-restapi/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-restapi/src/main/java/co/com/sofka/task/DoGet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-restapi/src/test/java/co/com/sofka/runner/jsonplaceholder/posts/PostsRunner.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-restapi/src/test/java/co/com/sofka/stepdefinitions/jsonplaceholder/posts/PostsCucumberStepDefinition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-restapi/src/test/resources/features/jsonplaceholder/posts/posts.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/build.gradle">
           <value>
             <set />
@@ -19,6 +114,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/co/com/sofka/exceptions/tempconvert/ValidationTextDoNotMatch.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/co/com/sofka/questions/ReturnStringValue.java">
           <value>
             <set />
           </value>
@@ -44,6 +144,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/test/java/co/com/sofka/runner/soap/tempconvert/CelsiusToFahrenheitCucumber.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/co/com/sofka/stepdefinitions/soap/tempconvert/celsiusToFahrenheit/CelsiusToFahrenheitCucumberStepDefinition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/co/com/sofka/stepdefinitions/soap/tempconvert/setup/SetUp.java">
           <value>
             <set />
           </value>
@@ -83,7 +193,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/target/cucumber-report/cucumber.html/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/target/site/serenity/5ef979f2743107115f0c2fc61748464546e61a750fbeb1173ad3df9112d9ecce.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/target/site/serenity/index.html">
           <value>
             <set />
           </value>
@@ -94,6 +214,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../automationtesting-trunk/Services/src/test/java/co/com/sofka/stepdefnitions/soap/calculator/add/AddWithCucumberStepDefinition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automationtesting-trunkSOAP/Services/build.gradle">
           <value>
             <set />
           </value>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Convertir temperatura - Celsius a Fahrenheit" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-10-23T16:30:21" hostname="DESKTOP-P44GADF" time="8.425">
+  <properties/>
+  <testcase name="Convertir grados celius a grados fahrenheit pasando valores validos" classname="Convertir temperatura - Celsius a Fahrenheit" time="7.829"/>
+  <testcase name="Convertir grados celius a grados fahrenheit pasando valores invalidos" classname="Convertir temperatura - Celsius a Fahrenheit" time="0.596"/>
+  <system-out><![CDATA[
+Scenario: Convertir grados celius a grados fahrenheit pasando valores validos           ?[90m# src/test/resources/features/tempConvert/celsiusToFahrenheit.feature:8?[0m
+  ?[32mGiven ?[0m?[32mel usuario ha definido un valor de ?[0m?[32m?[1m"10.2"?[0m?[32m grados celsius valido para el sistema?[0m ?[90m# co.com.sofka.stepdefinitions.soap.tempconvert.celsiusToFahrenheit.CelsiusToFahrenheitCucumberStepDefinition.elUsuarioHaDefinidoUnValorDeGradosCelsiusValidoParaElSistema(java.lang.String)?[0m
+  ?[32mWhen ?[0m?[32mel usuario ejecuta la conversion de temperatura en el aplicativo?[0m                 ?[90m# co.com.sofka.stepdefinitions.soap.tempconvert.celsiusToFahrenheit.CelsiusToFahrenheitCucumberStepDefinition.elUsuarioEjecutaLaConversionDeTemperaturaEnElAplicativo()?[0m
+  ?[32mThen ?[0m?[32mel usuario deberia obtener el resultado ?[0m?[32m?[1m"50.36"?[0m?[32m grados fahrenheit?[0m                ?[90m# co.com.sofka.stepdefinitions.soap.tempconvert.celsiusToFahrenheit.CelsiusToFahrenheitCucumberStepDefinition.elUsusarioDeberiaObtenerElResultadoGradosFahrenheit(java.lang.String)?[0m
+
+Scenario: Convertir grados celius a grados fahrenheit pasando valores invalidos               ?[90m# src/test/resources/features/tempConvert/celsiusToFahrenheit.feature:13?[0m
+  ?[32mGiven ?[0m?[32mel usuario ha definido un valor de ?[0m?[32m?[1m"#10.2"?[0m?[32m invalido para el sistema?[0m                   ?[90m# co.com.sofka.stepdefinitions.soap.tempconvert.celsiusToFahrenheit.CelsiusToFahrenheitCucumberStepDefinition.elUsuarioHaDefinidoUnValorDeInvalidoParaElSistema(java.lang.String)?[0m
+  ?[32mWhen ?[0m?[32mel usuario ejecuta la conversion de temperatura en el aplicativo con un valor invalido?[0m ?[90m# co.com.sofka.stepdefinitions.soap.tempconvert.celsiusToFahrenheit.CelsiusToFahrenheitCucumberStepDefinition.elUsuarioEjecutaLaConversionDeTemperaturaEnElAplicativoConUnValorInvalido()?[0m
+  ?[32mThen ?[0m?[32mel usuario deberia obtener el resultado de ?[0m?[32m?[1m"Error"?[0m                                     ?[90m# co.com.sofka.stepdefinitions.soap.tempconvert.celsiusToFahrenheit.CelsiusToFahrenheitCucumberStepDefinition.elUsuarioDeberiaObtenerElResultadoDe(java.lang.String)?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

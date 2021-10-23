@@ -16,7 +16,7 @@ public class ReturnStringValue implements Question<String> {
         return systemValue;
     }
 
-    public static ReturnStringValue systemValue(String systemValue){
+    public static ReturnStringValue systemValue(String systemValue) {
         return new ReturnStringValue(systemValue);
     }
 

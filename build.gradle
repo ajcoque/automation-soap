@@ -27,10 +27,15 @@ buildscript {
     }
 }
 
+serenity {
+    reports = ["single-page-html"]
+}
+
 ext {
     serenityVersion = '2.2.9'
     serenityCucumberVersion = '2.2.6'
     apachePoiVersion = '3.17'
+    jacksonVersion = '2.11.3'
 }
 
 compileJava.options.encoding = "UTF-8"
@@ -44,24 +49,20 @@ dependencies {
     implementation group: 'net.serenity-bdd', name: 'serenity-single-page-report', version: serenityVersion
     implementation group: 'net.serenity-bdd', name: 'serenity-assertions', version: serenityVersion
     implementation group: 'net.serenity-bdd', name: 'serenity-ensure', version: serenityVersion
-
-    implementation group: 'net.serenity-bdd', name: 'serenity-cucumber5', version: serenityCucumberVersion
     implementation group: 'net.serenity-bdd', name: 'serenity-screenplay-rest', version: serenityVersion
+    implementation group: 'net.serenity-bdd', name: 'serenity-cucumber5', version: serenityCucumberVersion
 
+    implementation group: 'com.sikulix', name: 'sikulixapi', version: '2.0.4'
     implementation group: 'org.apache.poi', name: 'poi-ooxml', version: apachePoiVersion
-    implementation 'com.oracle.database.jdbc:ojdbc10:19.11.0.0'
+    implementation group: 'com.oracle.database.jdbc', name: 'ojdbc10', version: '19.11.0.0'
     implementation group: 'com.ibm.mq', name: 'com.ibm.mq.allclient', version: '9.1.1.0'
-    implementation group: 'junit', name: 'junit', version: '4.12'
     implementation group: 'log4j', name: 'log4j', version: '1.2.17'
 
-    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.11.3'
-    implementation group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: '2.11.3'
-    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.13.0'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: jacksonVersion
+    implementation group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: jacksonVersion
+    implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: jacksonVersion
 
-}
-
-test {
-    useJUnitPlatform()
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
 }
 
 gradle.startParameter.continueOnFailure = true
